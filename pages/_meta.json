@@ -1,0 +1,17 @@
+{
+  "index": "Introduction",
+  "another": "Another Page",
+  "advanced": "Advanced (A Folder)",
+  "twitter": {
+    "title": "Twitter",
+    "type": "page",
+    "href": "https://twitter.com/dfarchon",
+    "newWindow": true
+  },
+  "discord": {
+    "title": "Discord",
+    "type": "page",
+    "href": "https://discord.com/invite/XpBPEnsvgX",
+    "newWindow": true
+  }
+}

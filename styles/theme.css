@@ -1,0 +1,29 @@
+:root {
+  --nextra-primary-hue: 340;
+  --nextra-primary-saturation: 100%;
+  --nextra-primary-lightness: 71%;
+}
+
+.dark {
+  --nextra-primary-hue: 340;
+  --nextra-primary-saturation: 100%;
+  --nextra-primary-lightness: 71%;
+}
+
+/* 覆盖默认的蓝色链接 */
+a {
+  color: hsl(
+    var(--nextra-primary-hue),
+    var(--nextra-primary-saturation),
+    var(--nextra-primary-lightness)
+  ) !important;
+}
+
+/* 覆盖默认的蓝色按钮 */
+button[class*="primary"] {
+  background-color: hsl(
+    var(--nextra-primary-hue),
+    var(--nextra-primary-saturation),
+    var(--nextra-primary-lightness)
+  ) !important;
+}

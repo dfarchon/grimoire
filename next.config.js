@@ -10,12 +10,4 @@ const withNextra = require('nextra')({
   },
 })
 
-module.exports = withNextra({
-  webpack: (config) => {
-    config.module.rules.push({
-      test: /\.css$/,
-      use: ['style-loader', 'css-loader'],
-    })
-    return config
-  },
-})
+module.exports = withNextra()

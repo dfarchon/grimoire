@@ -10,7 +10,6 @@
   --nextra-primary-lightness: 71%;
 }
 
-/* 覆盖默认的蓝色链接 */
 a {
   color: hsl(
     var(--nextra-primary-hue),
@@ -19,11 +18,22 @@ a {
   ) !important;
 }
 
-/* 覆盖默认的蓝色按钮 */
 button[class*="primary"] {
-  background-color: hsl(
-    var(--nextra-primary-hue),
-    var(--nextra-primary-saturation),
-    var(--nextra-primary-lightness)
-  ) !important;
+  background-color: transparent !important;
+}
+
+[data-theme-toggle] {
+  background-color: transparent !important;
+}
+
+[data-theme-toggle]:hover {
+  background-color: transparent !important;
+}
+
+.nx-flex.nx-gap-1.nx-mt-4 button {
+  background-color: transparent !important;
+}
+
+.nx-flex.nx-gap-1.nx-mt-4 button:hover {
+  background-color: transparent !important;
 }
